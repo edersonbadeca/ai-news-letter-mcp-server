@@ -16,14 +16,6 @@ A Model Context Protocol (MCP) server that provides RSS feed aggregation capabil
 - Docker
 - VS Code or Cursor IDE
 
-## 🛠️ Installation & Usage
-
-### Build the Docker Image
-
-```bash
-docker build -t mcp-rss-server .
-```
-
 ### 📱 VS Code Integration
 
 2. **Install the MCP extension** (if available) or configure MCP client
@@ -40,7 +32,7 @@ docker build -t mcp-rss-server .
                     "run",
                     "-i",
                     "--rm",
-                    "rss-server"
+                    "ghcr.io/edersonbadeca/rss-server:latest"
                 ],
             }
    }
